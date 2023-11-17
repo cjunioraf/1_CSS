@@ -1,0 +1,113 @@
+/* Geral - receto os elementos */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+/* Header - cabeçalho */
+header {
+    background-color: #696fca; 
+    color: #fff;   
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #424bc4;
+}
+
+/* Grid de Produtos */
+.container { 
+    background-color: #eee;
+    /* min-height 60vh - para predefinir que a grid terá 60% do espaço útil e o rodapé ficará para baixo */
+    min-height: 60vh;
+    padding: 50px;
+} 
+
+.products-container { 
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+}
+
+.card p {
+    margin-bottom: 10px;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 20px;
+    color: #424bc4;
+}
+
+.btn {
+    background-color: #696fca;
+    border: 3px solid #424bc4; 
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;   
+    padding: 8px 4px;
+    margin: 0;
+    transition: 0.8s;     
+}
+
+.btn:hover {
+    background-color: #424bc4;    
+}
+
+.product-image {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+#img-1 {
+    background-image: url('../img/tenis1.jpg');
+}
+
+#img-2 {
+    background-image: url('../img/tenis2.jpg');
+}
+
+#img-3 {
+    background-image: url('../img/tenis3.jpg');
+}
+
+#img-4 {
+    background-image: url('../img/tenis4.jpg');
+}
+
+#img-5 {
+    background-image: url('../img/tenis5.jpg');
+}
+
+#img-6 {
+    background-image: url('../img/tenis6.jpg');
+}
+
+h3{
+    margin-bottom: 10px;
+    color: #696fca;
+    font-size: 24px;
+    border-left: 5px solid #424bc4;
+    padding-left: 7px;
+}
+
+/* footer - rodapé */
+footer {
+    background-color: #696fca; 
+    color: #fff;   
+    padding: 80px;
+    text-align: center;
+    border-bottom: 4px solid #424bc4;    
+}

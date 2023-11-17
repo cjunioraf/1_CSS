@@ -1,0 +1,183 @@
+body{
+    padding: 20px;
+}
+
+p{
+    color: #942a2a;
+}
+
+/* classes e ids*/
+.meu-paragrafo{
+    background-color: black;
+    color: blue;
+}
+
+#titulo-principal {
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+    font-family: Helvetica;
+}
+
+/* todas as letras */
+* {
+    font-family: Arial;
+    font-size: 30px;
+} 
+
+p,h1 {
+    border-bottom: 1px solid red;
+}
+
+/* Fontes */ 
+.serifada {
+    font-family: Georgia;    
+}
+
+.sem-serifa{    
+    font-family: Helvetica;
+}
+
+.mono-escapada {
+    font-family: 'Courier New';
+}
+
+/*tamanho fonte / peso fonte*/
+.tamanho-fonte-grande {
+    font-size: 65px;
+}
+
+.tamanho-fonte-pequena {
+    font-size: 12px;
+}
+
+.peso-fonte {
+    font-weight: 900;
+}
+
+.fonte-italico {
+    font-style: italic;
+}
+
+/* BOX MODEL */
+.box-model {
+    width: 200px;
+    height: 100px;
+    border: 1px solid blue;
+    padding: 20px;
+    margin: 30px;
+}
+
+/* TAMANHO FONTE / TRANSF */ 
+.alinhamento {
+    text-align: center;
+}
+
+.transf-Maiuscula {
+    text-transform: lowercase;
+}
+
+.transf-minuscula { 
+    text-transform: uppercase;
+}
+
+/* espaçamentos entre linha e letras */
+.espacamento-texto {
+    width: 150px;
+    line-height: 40px;
+    letter-spacing: 8px;
+}
+
+/* links */
+.decoration {
+    text-decoration: none;
+}
+
+.visitado:visited {
+    color: #334563;
+}
+
+.estilo-hover:hover {
+    color: rgb(126, 126, 69);
+    background-color: #41a15d;
+}
+
+/* links and button*/
+.btn {
+    background-color: #0e4141;
+    border: 3px solid #7b818b; 
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    width: 120px;
+    font-size: 20px;   
+    padding: 12px 8px;
+    text-align: center;
+    margin: 20px;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-color: #7b818b;    
+}
+
+/* Listas */ 
+.sem-estilo {
+    list-style: none;
+}
+
+/* Display */ 
+.inline {
+    width: 50px;
+    height: 50px;
+    background-color: teal;
+    margin: 5px;
+    display: inline-block;
+}
+
+.bloco {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+/* posição */
+.elemento-fixo {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    background-color: #41a15d;
+    border-bottom: 2px solid  #342290 ;
+    color: #fff;
+}
+
+/* pseudo seletor */
+.primeiro-elemento p:first-child {
+    color: #7b818b;
+    font-weight: bold;
+}
+
+/* pseudo elemento */
+.primeira-letra::first-letter {
+    font-size: 40px;
+    color: #41a15d;
+}  
+
+/* especificidade */
+h2 {
+    color:#942a2a;
+}
+
+.titulo {
+    color: #342290;
+}
+
+#titulo-preferido {
+    color: #0e4141;
+}
